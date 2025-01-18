@@ -108,8 +108,12 @@ int main()
     // write into binary file
     print_to_file(n, A, 1);
 
+    printf("Writing into binary file completed. Kindly check the current directory to access the file.\n");
+
     // write into ASCII file
     print_to_file(n, A, 0);
+
+    printf("Writing into ASCII file completed. Kindly check the current directory to access the file.\n");
 
     // free memories
     deallocate2D(A, n);
